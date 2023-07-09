@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variáveis
-xnovo_usuario="spideruser"
+novo_usuario="spideruser"
 caminho_chave="/home/$novo_usuario/.ssh/authorized_keys"
 repositorio="voxlinkdev"
 arquivo_chave="pub-spider.txt"
