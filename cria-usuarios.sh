@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Variáveis
-novo_usuario="nome_do_usuario"
+novo_usuario="spideruser"
 caminho_chave="/home/$novo_usuario/.ssh/authorized_keys"
 repositorio="voxlinkdev"
-arquivo_chave="chave_publica.pub"
+arquivo_chave="pub-spider.txt"
 
 # Faz o download do arquivo de chave pública do repositório no GitHub
-wget -O "$caminho_chave" "https://raw.githubusercontent.com/$repositorio/master/$arquivo_chave"
+wget -O "$caminho_chave" "https://raw.githubusercontent.com/$repositorio/$repositoriov/main/chaves/$arquivo_chave"
 
 # Cria o diretório home do usuário
 mkdir -p /home/$novo_usuario
