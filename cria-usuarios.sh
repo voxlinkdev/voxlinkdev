@@ -8,7 +8,7 @@ arquivo_chave="pub-spider.txt"
 
 
 # Adiciona o usuário
-useradd -m $novo_usuario
+useradd -m $novo_usuario --disabled-password
 
 
 
